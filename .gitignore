@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# FMPayground
+# 生成物・途中成果（output/eval の評価結果を含む）
+output/
+# tinytowngen は別リポジトリから clone してビルドする（Doc/README.md 参照）
+tinytowngen/
+# Claude Code の個人設定（Skill は .claude/skills/ でコミットする）
+.claude/settings.local.json
+.DS_Store
